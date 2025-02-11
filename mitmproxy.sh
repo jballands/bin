@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # Check if mitmproxy is installed
 if ! command -v mitmproxy &> /dev/null; then
     echo "mitmproxy is not installed. Install it with brew then rerun this script."
