@@ -1,6 +1,12 @@
 # delrec.sh
 
-Use this script to recursively delete instances of a directory recursively. For example:
+```sh
+delrec.sh <1> <2>
+```
+
+Use this script to delete instances of directory `<2>` inside directory `<1>`.
+
+## Example
 
 ```
 src
@@ -16,7 +22,7 @@ L packages
 	    L node_modules
 ```
 
-Running this:
+Running this inside of `src`:
 
 ```sh
 delrec.sh . node_modules
